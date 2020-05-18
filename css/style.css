@@ -1,0 +1,99 @@
+h2{
+    text-transform: uppercase;
+}
+
+#navigation-bar{
+    padding: 5px 10px;
+    background-color: rgb(163, 163, 231);
+    text-align: left;
+}
+
+.navigation-buttons{
+    text-decoration: none;
+}
+
+#search-bar{
+    padding: 5px;
+   
+}
+
+#welcome{
+    background-color:  #ccc;
+    text-align: center;
+    margin: 50px;
+}
+
+#recent-posts, #post, #story-section, #contact-me, #about, #contact{
+    margin: 50px;
+}
+
+#email-me{
+    margin:50px, auto;
+}
+
+a{
+    color: blue;
+    background-color: white;
+}
+
+a:visited{
+    color: blue;
+    background-color: white;
+}
+
+a:hover{
+    color: red;
+    background-color: white;
+}
+
+a:active{
+    color: green;
+    background-color: white;
+}
+
+#read-more-link{
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+}
+
+#copyright{
+    text-align: center;
+    font-weight: bold;
+}
+
+#email-box{
+    font-weight: bolder;
+}
+
+.contact-details{
+   font-weight: bold;
+}
+.contact{
+    padding: 5px;
+}
+.text{
+    margin:0 0 0 30px;
+}
+
+#text{
+    margin:0 0 0 10px;   
+}
+
+#pre-nxt{
+    text-transform: capitalize;
+}
+
+@media(max-width: 600px){
+    #welcome, #recent-posts, #post, #story-section, #contact-me, #about, #contact{
+        margin: 10px;
+    }
+    
+    body{
+        font-size: 12px;
+    }
+
+    #read-more-link{
+        font-size:large; 
+    }
+}
