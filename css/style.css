@@ -90,7 +90,8 @@ a:active{
     }
     
     body{
-        font-size: 12px;
+        font-size: 16px;
+        line-height: 20px
     }
 
     #read-more-link{
